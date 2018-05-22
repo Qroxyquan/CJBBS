@@ -1,0 +1,328 @@
+body{
+	font-family: "微软雅黑";
+	width:100%;height:100%;
+}
+@font-face {
+	font-family:'fangzheng';
+	src:  url(../fonts/fz.TTF);
+}
+.side-nav{ 
+ position: fixed; 
+ top: 45%; 
+ right: 20px; 
+ z-index: 1; 
+} 
+.side-nav ul{ 
+ text-align: center; 
+ list-style: none; 
+ margin: 0; 
+ padding-left: 0; 
+} 
+.side-nav ul li{ 
+ display: block; 
+ line-height: 1.45em; 
+ margin: 0; 
+ padding: 8px 0; 
+} 
+.side-nav ul li a{ 
+ display: block; 
+ width: 10px; 
+ height: 10px; 
+ border-radius: 50%; 
+} 
+.default{ 
+ background-color: #85939b; 
+  
+} 
+.select{ 
+ background-color: #45bcf9; 
+} 
+
+.navbar-brand{
+	font-size: 30px;
+	font-weight: bold;
+	color: #40d2b1;
+	font-family: "fangzheng";
+}
+
+.bg {display: table;width: 100%;height: 100%;padding: 100px 0;text-align: center;color: #fff;background-color: #000;background-size: cover;}  
+.my-navbar {padding:20px 0;transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;}  
+.my-navbar a{background:transparent !important;color:#FFFFFF !important}  
+.my-navbar a:hover {color:#45bcf9 !important;background:transparent;outline:0}  
+.my-navbar a {transition: color 0.5s ease-in-out;}/*-webkit-transition ;-moz-transition*/  
+.top-nav {padding:0;background:#1B6D85;}  
+button.navbar-toggle {background-color:#fbfbfb;}/*整个背景都是transparent透明的，会看不到，所以再次覆盖一下*/  
+button.navbar-toggle > span.icon-bar {background-color:#dedede}  				                
+
+.container{
+    padding-left: 80px;
+	width: 100%;
+}
+#myCarousel{
+	height: 800px;
+	width: 100%;
+	position: absolute;
+	background-position: center center;
+	background-size: cover;
+}
+
+.carousel-inner{
+    height: 800px;
+	width: 100%;
+}
+
+.headh1content{
+	margin-top: 150px;
+	line-height: 110px;
+	font-family: "fangzheng";
+	font-size: 75pt;
+}
+.title-text{
+  text-align: center;
+}
+.pageone{
+	height: 800px;
+	width: 100%;
+	position: relative;
+	background-image: url(../img/微信图片_20180427180635.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.login-register{
+	height: 700px;
+	position: relative;
+	padding: 0;
+}
+.login{
+	height: 300px;
+	margin-top: 200px;
+	background: rgba(255,255,255,0.5);
+	font-family: "fangzheng";
+}
+.form-login{
+	margin-bottom: 0;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.input{
+	margin-bottom: 0;
+	margin-top: 0;
+/*height: 75px;*/
+}
+
+.register{
+	background: rgba(255,255,255,0.5);
+	font-family: "fangzheng";
+	height:400px;
+	padding: 0;
+	position: absolute;
+	top: 150px;
+}
+.register-text{
+	text-align: right;
+}
+.register-text a{
+	text-decoration: none;
+}
+
+.pagetwo{
+    height:800px;
+	width: 100%;
+	padding-top: 50px;
+	background-image:url(../img/微信图片_20180427180640.jpg);
+	background-position: center center;
+	background-size: cover;
+
+}
+
+
+.twopage-text{
+	width: 100%;
+	text-align: center;
+}
+
+.pagetwo-text-h1{
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+	font-family: "fangzheng";
+}
+
+.pagetwo-bbs{
+padding: 0px;
+}
+.pagetwo-bbs-text{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #000000;
+	float: left;
+	
+}
+.pagetwo-bbs-h1{
+	margin-top: 10px;
+	letter-spacing: 2px;
+	font-family: "fangzheng";
+
+}
+.pagetwo-bbs-h3{
+	margin-top: 10px;
+	letter-spacing: 2px;
+	font-family: "fangzheng";
+
+}
+.pagethree{
+	width: 100%;
+	height: 800px;
+	padding-top: 50px;
+	background-image:url(../img/微信图片_20180427180436.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+}
+.pagethree:before{
+	content: '';
+	background: rgba(75, 75, 93, 0.85);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.pagethree-text{
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+}
+.pagethree-text-h1{
+	margin-top: 30px;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+	font-family: "fangzheng";
+}
+.pagethree-bbs-text{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+}
+
+.foot{
+	width: 100%;
+	height: 100px;
+	padding: 0;
+}
+.maker-info{
+	padding: 0;
+	text-align: center;
+	margin-top: 20px;
+}
+.maker-logo{
+	padding: 0;
+	margin-top: 10px;
+	height: 80px;
+	font-size: 10px;
+	text-align: center;
+}
+.maker-code{
+	height:80px;
+}
+.maker-info a{
+	text-decoration: none;
+}
+
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: -200px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.1s ease-out 0.5s;
+  transition: all 0.1s ease-out 0.5s;
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  top: 0px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(-200px);
+  -ms-transform: translateY(-200px);
+  transform: translateY(-200px);
+  -webkit-transition: all ease-in-out 0.1s;
+  transition: all ease-in-out 0.1s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  -webkit-transform: translateY(-200px);
+  -ms-transform: translateY(-200px);
+  transform: translateY(-200px);
+  color: #000;
+  border: 1px solid #000;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover a.info {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  box-shadow: 0 0 5px #000;
+  color: #000;
+  border: 1px solid #000;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}

@@ -1,0 +1,97 @@
+body{
+	font-family: "微软雅黑";
+	width:100%;height:100%;
+	background-color: #f7f9fb;
+}
+h1{
+	margin: 0;
+}
+@font-face {
+	font-family:'fangzheng';
+	src:  url(../fonts/fz.TTF);
+}
+.navbar-brand{
+	font-size: 30px;
+	font-weight: bold;
+	color: #40d2b1;
+	font-family: "fangzheng";
+}
+.my-navbar {padding:20px 0;transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;}  
+.my-navbar a{background:transparent !important;color:#FFFFFF !important}  
+.my-navbar a:hover {color:#45bcf9 !important;background:transparent;outline:0}  
+.my-navbar a {transition: color 0.5s ease-in-out;}/*-webkit-transition ;-moz-transition*/  
+.top-nav {padding:0;background:#1B6D85;}  
+button.navbar-toggle {background-color:#fbfbfb;}/*整个背景都是transparent透明的，会看不到，所以再次覆盖一下*/  
+button.navbar-toggle > span.icon-bar {background-color:#dedede}  	
+.container{
+    padding-left: 80px;
+	width: 100%;
+}
+
+
+.content{
+	height: 1000px;
+	border-top: 3px solid #3C763D;
+	margin-top: 80px;
+	padding: 15px;
+	background-color: white;
+	
+}
+.contenthead{
+	height: 200px;
+	padding: 0;
+	background-image: url(../img/微信图片_20180427180635.jpg);
+	background-position: center center;
+	display: block;
+}
+.title-text{
+	height: 100%;
+	padding: 50px 0 0 15px;
+	font-family: "fangzheng";
+}
+.title-text h1{
+	font-size: 36px;
+}
+.user-info{
+	height: 150px;
+	margin-top: 25px;
+	background: rgba(255,255,255,0.5);
+}
+.user-logo{
+	padding: 0;
+	margin-top: 15px;
+	height: 75px;
+}
+.user-mainlogo{
+	height: 75px;
+	border-radius: 0.5;
+}
+.welcome{
+	padding: 0;
+	text-align: center;
+	height: 50px;
+	margin-top: 15px;
+}
+.welcome p{
+	font-size: 12px;
+    color: #000000;
+    margin-top: 5px;
+}
+.welcome h2{
+	font-family: "fangzheng";
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0;
+}
+.welcome a{
+	text-decoration: none;
+	color: #000000;
+}
+.main-content{
+ height: 100%;
+ padding: 0;
+}
+.content-nav{
+	height: 50px;
+    padding-top: 30px;
+}

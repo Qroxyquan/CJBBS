@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="../ckeditor/samples/css/samples.css" />
+<link rel="stylesheet" href="../ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" />
+<script src="ckeditor/config.js"></script>
+<script src="ckeditor/ckeditor.js"></script>
+</head>
+<body>
+ <div id="editor">
+        <!-- <h1>Hello world!</h1>
+        <p>
+            I'm an instance of <a href="http://ckeditor.com">CKEditor</a>.
+        </p> -->
+    </div>
+    <!--用于上传图片的表单-->
+    <div>
+        <form id="editorImageForm" enctype="multipart/form-data" method="post"
+            style="display: none">
+            <div>
+                <input type="file" id="editFileInput" name="file"
+                    accept=".gif,.png,.jpg,.jpeg" /><br>
+            </div>
+        </form>
+    </div>
+    <script>
+    $(function(){
+        /*EditorPage.initPage();*/
+        initSample();//页面载入调用方法初始化富文本编辑器
+    });
+</script>
+</body>
+</html>

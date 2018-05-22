@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>logintest</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(":input[name='username']").change(function(){
+		var val=$(this).val();
+		val=$.trim(val);
+		if (val!="") {
+			var url="servlet";
+			var args={"userName":val,time:new Date()};			
+			$.post(url,args,function(data){
+				$("#message").html(data);
+			});
+	   }
+  });
+})
+</script>  
+</head>
+<body>
+<form action="" method="post">
+	Username:<input type="text" name="username" />
+	<br />
+	<div id="message"></div>
+	<br />
+	<input type="submit" value="Submit" />
+	
+</form>
+
+</body>
+</html>

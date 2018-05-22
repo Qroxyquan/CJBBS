@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">  
+      
+    function checkUser(){  
+          
+        var username = document.getElementById("username").value;  
+          
+        var data = "username="+username;  
+          
+        var request = new XMLHttpRequest();  
+          
+        request.onreadystatechange=function(){  
+            if(request.readyState == 4 && request.status == 200){  
+                document.getElementById("warning").innerHTML = request.responseText;  
+            }  
+        }  
+          
+        request.open("POST", "check", true);  
+        //使用post方式提交数据，必须加上下面这行代码    
+        request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");   
+        request.send(data);  
+          
+    }  
+  
+    </script>  
+  
+<title>Insert title here</title>
+</head>
+<body>
+  <form action="servlet" method="post" >  
+        用户名：<input type="text" name="username" onkeyup="checkUser();" id="username"/>  
+        <span id="warning">asd</span>  
+        </br></br>  
+        密 码：<input type="password" name="password" />  
+        </br></br>  
+        <input type="submit" value="注册" />  
+      
+    </form>  
+</body>
+</html>

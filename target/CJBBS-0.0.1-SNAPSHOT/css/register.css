@@ -1,0 +1,112 @@
+@font-face {
+	font-family:'fangzheng';
+	src:  url(../fonts/fz.TTF);
+}
+.title-text{
+	margin-top: 15px;
+	padding-left: 15px;
+	text-align: left;
+	font-family:'fangzheng';
+	border-bottom:3px solid #DF6659 ;
+}
+.title-text h1{
+	border-bottom:3px solid #DF6659 ;
+}
+.register-content{
+	background: white;
+    box-shadow: 0 0 10px rgba(13, 5, 9, 0.27);
+	height: 650px;
+/*	border-top: 3px solid #DF6659;*/
+	margin-top: 75px;
+}
+.input{
+	max-width: 480px;
+}
+.form-register{
+	margin-top: 30px;
+	margin-bottom: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.register-form{
+	height: 555px;
+	padding: 0;
+}
+.major-radio{
+	padding: 0;
+	margin-bottom: 15px;
+	color: #6a7989;
+	font-weight: bold;
+	font-size: 70.25%;
+}
+.gender{
+	padding: 0;
+	height: 32px;
+	margin-left: 10px;
+	line-height: 32px;
+}
+.major{
+	padding: 0;
+	height: 32px;
+	margin-left: 10px;
+	line-height: 32px;
+	margin-right: 45px;
+}
+.major-radio{
+	margin-bottom: 0px;
+}
+.major-main {
+	width: 260px;
+	margin: 0;
+}
+.gender-main{
+	margin-left: 50px;
+}
+.gender-radio{
+	padding: 0;
+	margin-bottom: 15px;
+	color: #6a7989;
+	font-weight: bold;
+	font-size: 70.25%;
+}
+.register-left{
+	padding: 0;
+	height: 507px;
+	border-right: dashed 2px #EEEEEE;
+}
+.register-right{
+	padding: 0;
+}
+.register-first-text{
+	margin-top: 10px;
+	text-align: center;
+	padding: 0;
+	font-family:'fangzheng';
+	font-size: 16px;
+	font-weight: bold;
+}
+.register-sec-text{
+	margin-top: 10px;
+	text-align: center;
+	padding: 0;
+	font-family:'fangzheng';
+	font-size: 16px;
+	font-weight: bold;
+}
+.head-img{
+	height: 180px;
+	margin-top: 100px;
+}
+.head-main-img{
+	height: 135px;
+	width:135px;
+}
+.img-btn{
+	margin-top: 15px;
+}
+.register-button{
+	margin-top: 15px;
+}
+.headimg{
+	margin-top: 15px;
+}
